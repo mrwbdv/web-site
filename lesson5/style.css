@@ -1,0 +1,30 @@
+html {
+  font-size: 40px;
+}
+
+.text {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .text {
+    font-size: 20px;
+  }
+}
+
+.success, .error, .warning {
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: #333;
+}
+.success {
+  font-size: 0.5rem;
+  background-color: green;
+}
+.error {
+  background-color: red;
+  font-size: 0.5em;
+}
+.warning {
+  background-color: orange;
+}
